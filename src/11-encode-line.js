@@ -10,17 +10,6 @@
  */
 
 function encodeLine(str) {
-  /* const countLetters = {};
-
-  for (let i = 0; i < str.length; i++) {
-    countLetters[str[i]] = (countLetters[str[i]] ? countLetters[str[i]] : 0) + 1;
-  }
-
-  let newStr = '';
-  Object.keys(countLetters).forEach((letter) => {
-    newStr += (countLetters[letter] === 1) ? letter : countLetters[letter] + letter;
-  }); */
-
   let newStr = '';
 
   for (let i = 1, k = 1; i <= str.length; i++) {
